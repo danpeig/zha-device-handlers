@@ -281,7 +281,7 @@ base_tuya_motion = (
     .add_to_registry()
 )
 
-(   # Whenzi Tuya WZ-M100 
+(  # Whenzi Tuya WZ-M100
     # https://github.com/wzwenzhi/Wenzhi-ZigBee2mqtt/blob/main/wenzhi_tuya_M100_240704.js
     base_tuya_motion.clone()
     .applies_to("_TZE204_laokfqwu", "TS0601")
